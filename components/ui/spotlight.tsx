@@ -11,7 +11,7 @@ export type SpotlightProps = {
 
 export function Spotlight({
   className,
-  size = 400,
+  size = 222,
   springOptions = { bounce: 0 },
 }: SpotlightProps) {
   const containerRef = useRef<HTMLDivElement>(null)
